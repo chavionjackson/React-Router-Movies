@@ -17,7 +17,7 @@ function MovieDetails(props) {
   const { title, director, metascore } = props.movie;
   const history = useHistory();
   const Click = () => {
-    history.push(`/movies/${props.movie.id}`);//fetches data of movie when clicked
+    history.push(`/movies/${props.movie.id}`);//fetches data of movie when clicked on
   }
 
   return (
